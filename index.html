@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>guessing Game JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="JS/words.js" defer></script>
+    <script src="JS/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Guess the Word</h1>
+      <div class="content">
+        <input class="input_text" type="text" maxlength="1" />
+        <div class="inputs">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </div>
+        <p>
+          HINT:
+          <span class="hint">hint name for word</span>
+        </p>
+        <p>remaining Guesses: <span class="remain_guess">8</span></p>
+        <p>Wrong Letters: <span class="wrong_letter"></span></p>
+        <button class="init_game">Reset Game</button>
+      </div>
+    </div>
+  </body>
+</html>
